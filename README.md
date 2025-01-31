@@ -45,7 +45,7 @@ torch.backends.cudnn.allow_tf32 = True
 ## 🚀 Installation and Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/nmt-project.git
+https://github.com/dhruvjore/Seq2Seq-Neural-Machine-Translation-LSTM-with-Attention-and-GPU-Optimization.git
 cd nmt-project
 ```
 
