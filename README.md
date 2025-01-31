@@ -1,4 +1,4 @@
-# 🤖 Seq2Seq-Neural-Machine-Translation-LSTM-with-Attention-and-GPU-Optimization#  \
+# 🤖 Seq2Seq-Neural-Machine-Translation-LSTM-with-Attention-and-GPU-Optimization#  
 
 ## 🎯 Project Overview
 A PyTorch implementation of Neural Machine Translation (NMT) using Sequence-to-Sequence architecture with LSTM networks. This project implements the approach described in the paper "Sequence to Sequence Learning with Neural Networks" (Sutskever et al., 2014), with optimizations for modern GPU acceleration.
