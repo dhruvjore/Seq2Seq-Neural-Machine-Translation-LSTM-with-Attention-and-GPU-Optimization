@@ -173,7 +173,7 @@ def train_model(max_samples=None, force_rebuild_vocab=False, save_dir='checkpoin
         dataset['train'] = dataset['train'].select(range(min(max_samples, len(dataset['train']))))
         dataset['validation'] = dataset['validation'].select(range(min(max_samples//10, len(dataset['validation']))))
     
-    # Extract texts
+    # Extract Texts
     print("Extracting texts...")
     en_texts = [item['translation']['en'] for item in dataset['train']]
     fr_texts = [item['translation']['fr'] for item in dataset['train']]
