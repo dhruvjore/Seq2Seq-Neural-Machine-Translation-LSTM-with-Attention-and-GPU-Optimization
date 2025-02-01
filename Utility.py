@@ -77,7 +77,7 @@ class Translator:
         self.en_nlp = spacy.load('en_core_web_sm')
         self.model = self._build_model()
         self.model.eval()
-    
+
     def _build_model(self):
         encoder = Encoder(
             input_dim=self.checkpoint['en_vocab_size'],
